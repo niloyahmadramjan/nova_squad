@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 import SkillsSection from "./components/SkillsSection";
 
 export default function Home() {
   return (
     
     <SkillsSection/>
-=======
 import Image from "next/image";
 import About from "./components/About";
 
@@ -15,6 +13,5 @@ export default function Home() {
    
   <About></About>
     // </div>
->>>>>>> 972adfe595afa9e39058bf5337f96c0af299a697
   );
 }
