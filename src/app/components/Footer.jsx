@@ -62,34 +62,45 @@ const Footer = () => {
         </div>
 
         {/* Right: Social Links */}
-        <div className="flex space-x-6 lg:justify-end">
-          <Link
-            href="https://github.com"
-            target="_blank"
-            aria-label="GitHub"
-            className="p-2 rounded-full transition"
-            style={{ backgroundColor: '#8aa4f5' + '33' }}
-          >
-            <Github color="#01130b" className="transition-colors" />
-          </Link>
-          <Link
-            href="https://linkedin.com"
-            target="_blank"
-            aria-label="LinkedIn"
-            className="p-2 rounded-full transition"
-            style={{ backgroundColor: '#8aa4f5' + '33' }}
-          >
-            <Linkedin color="#01130b" className="transition-colors" />
-          </Link>
-          <Link
-            href="https://facebook.com"
-            target="_blank"
-            aria-label="Facebook"
-            className="p-2 rounded-full transition"
-            style={{ backgroundColor: '#8aa4f5' + '33' }}
-          >
-            <Facebook color="#01130b" className="transition-colors" />
-          </Link>
+        <div className="lg:justify-end">
+          <div className="flex space-x-6 ">
+            <Link
+              href="https://github.com"
+              target="_blank"
+              aria-label="GitHub"
+              className="p-3 rounded-full transition transform hover:scale-110 cursor-pointer shadow-md"
+              style={{ backgroundColor: '#8aa4f533' }}
+            >
+              <Github
+                className="transition-colors"
+                style={{ color: '#01130b' }}
+              />
+            </Link>
+            <Link
+              href="https://linkedin.com"
+              target="_blank"
+              aria-label="LinkedIn"
+              className="p-3 rounded-full transition transform hover:scale-110 cursor-pointer shadow-md"
+              style={{ backgroundColor: '#8aa4f533' }}
+            >
+              <Linkedin
+                className="transition-colors"
+                style={{ color: '#01130b' }}
+              />
+            </Link>
+            <Link
+              href="https://facebook.com"
+              target="_blank"
+              aria-label="Facebook"
+              className="p-3 rounded-full transition transform hover:scale-110 cursor-pointer shadow-md"
+              style={{ backgroundColor: '#8aa4f533' }}
+            >
+              <Facebook
+                className="transition-colors"
+                style={{ color: '#01130b' }}
+              />
+            </Link>
+          </div>
         </div>
       </div>
 

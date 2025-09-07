@@ -27,26 +27,29 @@ const Navbar = () => {
           {/* Logo / Team Name */}
           <Link
             href="/"
-            className="bg-gradient-to-r from-[#1ded8f] font-bold via-[#8aa4f5] to-[#6f5bf1] bg-clip-text text-transparent text-2xl"
-            style={{ color: '#8aa4f5' }}
+            className="text-2xl font-bold bg-gradient-to-r from-[#8aa4f5] via-[#8aa4f5] to-[#6f5bf1] bg-clip-text text-transparent animate-gradient bg-[length:200%_200%] transition duration-300 cursor-pointer"
           >
             Nova Squad
           </Link>
 
-          {/* Desktop Links */}
-          <div className="hidden md:flex space-x-6 font-medium">
+          {/* Desktop Links - Centered */}
+          <div className="hidden md:flex flex-1 justify-center space-x-8 font-medium">
             {links.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className="transition-colors"
+                className="transition-colors hover:text-[#1ded8f]"
                 style={{ color: '#01130b' }}
               >
                 {link.name}
               </Link>
             ))}
+          </div>
+
+          {/* CTA Button on Right */}
+          <div className="hidden md:flex">
             <button
-              className="px-4 py-2 rounded-lg font-semibold transition"
+              className="px-4 py-2 rounded-lg font-semibold transition hover:opacity-90 cursor-pointer"
               style={{
                 backgroundColor: '#1ded8f',
                 color: '#f6fefb',
@@ -101,7 +104,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               href={link.href}
-              className="transition-colors"
+              className="transition-colors hover:text-[#1ded8f]"
               style={{ color: '#01130b' }}
               onClick={() => setOpen(false)}
             >
@@ -111,7 +114,7 @@ const Navbar = () => {
 
           {/* CTA button inside Drawer */}
           <button
-            className="mt-6 px-4 py-2 rounded-lg font-semibold transition"
+            className="mt-6 px-4 py-2 rounded-lg font-semibold transition hover:opacity-90"
             style={{
               backgroundColor: '#1ded8f',
               color: '#f6fefb',
