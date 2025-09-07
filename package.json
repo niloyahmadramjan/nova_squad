@@ -10,6 +10,14 @@
   },
   "dependencies": {
 <<<<<<< HEAD
+    "framer-motion": "^12.23.12",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "react-simple-typewriter": "^5.0.1"
+=======
+<<<<<<< HEAD
     "aos": "^2.3.4",
     "next": "15.5.2",
     "react": "19.1.0",
@@ -23,6 +31,7 @@
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0"
 >>>>>>> 972adfe595afa9e39058bf5337f96c0af299a697
+>>>>>>> 88b78156acb5a655bebe1f3c59a9ee642ada03e8
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -32,7 +41,12 @@
     "eslint-config-next": "15.5.2",
     "tailwindcss": "^4"
 =======
+<<<<<<< HEAD
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4"
+=======
     "eslint-config-next": "15.5.2"
 >>>>>>> 972adfe595afa9e39058bf5337f96c0af299a697
+>>>>>>> 88b78156acb5a655bebe1f3c59a9ee642ada03e8
   }
 }

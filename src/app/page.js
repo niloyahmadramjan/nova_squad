@@ -1,4 +1,12 @@
 <<<<<<< HEAD
+import SkillsSection from "./components/SkillsSection";
+
+export default function Home() {
+  return (
+    
+    <SkillsSection/>
+=======
+<<<<<<< HEAD
 'use client';
 
 import dynamic from 'next/dynamic';
@@ -15,6 +23,7 @@ export default function Home() {
       </main>
     </div>
 =======
+>>>>>>> 88b78156acb5a655bebe1f3c59a9ee642ada03e8
 import Image from "next/image";
 import About from "./components/About";
 
