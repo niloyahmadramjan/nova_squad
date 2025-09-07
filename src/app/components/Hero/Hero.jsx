@@ -19,7 +19,7 @@ export default function Hero() {
         backgroundSize: '100% 100%',
       }}
     >
-      <div className="z-10 w-full max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between py-16 lg:py-28 gap-10 lg:gap-24">
+      <div className="z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between py-16 lg:py-28 gap-10 lg:gap-24">
         
         {/* 👉 Left Text Content */}
         <div className="text-center lg:text-left lg:max-w-xl px-2 sm:px-0" data-aos="fade-right">
