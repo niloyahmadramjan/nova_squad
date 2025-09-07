@@ -38,7 +38,6 @@ export default function Hero() {
     delaySpeed={1000}
   />
 </span>
-
           </h1>
 
           <p className="mt-6 text-base sm:text-lg md:text-xl text-[#01130bbb] leading-relaxed max-w-md sm:max-w-lg mx-auto lg:mx-0">
