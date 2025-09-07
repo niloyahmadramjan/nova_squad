@@ -1,4 +1,12 @@
 <<<<<<< HEAD
+import OurProjects from "./projects/page";
+
+export default function Home() {
+  return (
+    <div className="bg-[#f6fefb]">
+      <OurProjects/>
+=======
+<<<<<<< HEAD
 import SkillsSection from "./components/SkillsSection";
 
 export default function Home() {
@@ -21,6 +29,7 @@ export default function Home() {
       <main>
         <Hero />
       </main>
+>>>>>>> 8c2addca950b15f0b638cec895098ea2e5ef4edd
     </div>
 =======
 >>>>>>> 88b78156acb5a655bebe1f3c59a9ee642ada03e8
