@@ -10,6 +10,7 @@ import {
   SiHtml5,
   SiCss3,
 } from "react-icons/si";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function SkillsSection() {
   const groups = [
@@ -109,8 +110,14 @@ export default function SkillsSection() {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="text-center mb-14"
         >
-          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-500">
-            Our Skills & Expertise
+          <h2 className="text-3xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#1ded8f] via-[#8aa4f5] to-[#6f5bf1]">
+            <Typewriter
+              words={["Our Skills & Expertise"]}
+              loop={false}
+              cursor
+              cursorStyle="|"
+              typeSpeed={80}
+            />
           </h2>
           <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             We craft modern, scalable web apps with the MERN stack and a strong
@@ -217,3 +224,4 @@ export default function SkillsSection() {
     </section>
   );
 }
+
