@@ -190,13 +190,22 @@ export default function SkillsSection() {
               label: "HTML",
               icon: <SiHtml5 className="text-orange-400" aria-hidden />,
             },
-            { label: "CSS", icon: <SiCss3 className="text-blue-600" aria-hidden /> },
+            {
+              label: "CSS",
+              icon: <SiCss3 className="text-blue-600" aria-hidden />,
+            },
             {
               label: "JavaScript",
               icon: <SiJavascript className="text-yellow-400" aria-hidden />,
             },
-            { label: "React", icon: <FaReact className="text-blue-400" aria-hidden /> },
-            { label: "Node.js", icon: <FaNodeJs className="text-cyan-500" aria-hidden /> },
+            {
+              label: "React",
+              icon: <FaReact className="text-blue-400" aria-hidden />,
+            },
+            {
+              label: "Node.js",
+              icon: <FaNodeJs className="text-cyan-500" aria-hidden />,
+            },
             {
               label: "Express.js",
               icon: <SiExpress className="text-gray-700" aria-hidden />,
@@ -205,7 +214,10 @@ export default function SkillsSection() {
               label: "MongoDB",
               icon: <SiMongodb className="text-green-600" aria-hidden />,
             },
-            { label: "GitHub", icon: <FaGitAlt className="text-red-500" aria-hidden /> },
+            {
+              label: "GitHub",
+              icon: <FaGitAlt className="text-red-500" aria-hidden />,
+            },
           ].map((t, i) => (
             <motion.span
               key={t.label}
@@ -224,4 +236,3 @@ export default function SkillsSection() {
     </section>
   );
 }
-
